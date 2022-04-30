@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Техномарт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Академия itKBR (Lesson 2 JS)  by Liyan -->
+    <header class="counteiner">
+        <h1>Рейтинг игроков</h1>
+        <form class="form-find">
+            <input type="text" name="find" class="find-input" id="form-find">
+        </form>
+    </header>
+    <main class="counteiner">
+        <div class="table-caption">
+            <p>Nickname</p>
+            <p>Win</p>
+            <p>KO</p>
+            <p>Looses</p>
+            <p>PTS</p>
+        </div>
+        <ol class="table-content" id="playerConteiner">
+            <li id="1">
+                <p>Nickname 1</p>
+                <p>123</p>
+                <p>12</p>
+                <p>13</p>
+                <p>4331</p>
+                <p class="edit"></p>
+                <p class="delete"></p>
+            </li>
+            <li id="2">
+                <p>Nickname 2</p>
+                <p>323</p>
+                <p>42</p>
+                <p>33</p>
+                <p>3231</p>
+                <p class="success"></p>
+                <p class="save"></p>
+            </li>
+            <li id="3">
+                <input type="text" name="nickname" value="Nickname 3">
+                <input type="number" name="win" value="43">
+                <input type="number" name="ko" value="2">
+                <input type="number" name="looses" value="3">
+				<p>231</p>
+                <p class="ed"></p>
+                <p class="de"></p>
+            </li>
+        </ol>
+    </main>
+    <footer  class="counteiner">
+        <hr>
+        <h2>Добавить игрока</h2>
+        <form class="new-record" action="" onsubmit="return false">
+            <label>
+                <p>Nickname<p>
+                <input type="text" name="f_nickname" required>
+            </label>
+            <label>
+                <p>Win<p>
+                <input type="number" name="f_win" min="0" required>
+            </label>
+            <label>
+                <p>Ko<p>
+                <input type="number" name="f_ko" min="0" required>
+            </label>
+            <label>
+                <p>Looses<p>
+                <input type="number" name="f_loose" min="0" required>
+            </label>
+            <label>
+                <input type="submit" value="Добавить">
+            </label>
+            </form>
+        </form>        
+    
+    </footer>
+    <script src="js/js.js"></script>   
+</body>
+</html>

@@ -220,6 +220,9 @@ ol.table-content p:nth-child(6):hover, ol.table-content p:nth-child(7):hover{
     border-radius: 0 !important;
     cursor: default !important;
 }
+.ca, .cancel{
+    background-image:  url("../img/cancel.png");
+}
 hr{
     width: calc(100% - 60px);
     margin-left: 0;
